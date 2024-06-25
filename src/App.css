@@ -1,38 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(0, 0, 0);
+  background-image: url("C:\Users\aarya\Downloads\earth-6c0a6145eba10cb2fa10e99f594e9e5a.webp");
+  background-repeat: no-repeat;
+  background-position: left 100% bottom ; 
+  background-size: auto 63%; 
+  background-attachment: fixed;
+}
+
+.heading {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #28a3c6; 
+  margin-bottom: 20px;
+}
+
 .App {
   text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: #343a40;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #b1bdc8;
+  margin-bottom: 20px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input[type="text"]:focus {
+  border-color: #657587;
+}
+
+.attendee-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  gap: 20px;
 }

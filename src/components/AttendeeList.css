@@ -1,0 +1,36 @@
+.attendee-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .attendee-card {
+    background: rgba(146, 123, 123, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .attendee-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .attendee-card h2 {
+    font-size: 1.2em;
+    margin: 0;
+    color: #ffffff;
+    text-transform: capitalize;
+  }
+  
+  .attendee-card p {
+    color: #555;
+    margin-top: 10px;
+  }
+  
