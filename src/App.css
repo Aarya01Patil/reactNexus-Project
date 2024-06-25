@@ -4,7 +4,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(0, 0, 0);
-  background-image: url("C:\Users\aarya\Downloads\earth-6c0a6145eba10cb2fa10e99f594e9e5a.webp");
+  background-image: url('/public/background-addon.webp');
   background-repeat: no-repeat;
   background-position: left 100% bottom ; 
   background-size: auto 63%; 
